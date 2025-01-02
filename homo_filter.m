@@ -1,6 +1,3 @@
-Detailed explanation in: https://zhuanlan.zhihu.com/p/4425606970
-Matlab script:
-
 % 同态滤波器，D0为高斯滤波的标准差，rL和rH是截止幅度
 % 默认参数：D0=80; rL=0.25; rH=2.2; c=2.0; 
 % cnliuixn1995@gmail.com
@@ -25,3 +22,7 @@ g = gp(1:size_y,1:size_x);
 % 取指数
 g = exp(g) - 1;
 end
+
+
+
+
